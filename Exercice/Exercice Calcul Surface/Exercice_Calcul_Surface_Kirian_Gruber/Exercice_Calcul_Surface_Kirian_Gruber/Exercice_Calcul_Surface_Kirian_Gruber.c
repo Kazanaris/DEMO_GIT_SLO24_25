@@ -61,8 +61,8 @@ int main(void)
     // type réel
     float surfaceCarre_m2 = 0, surfaceRectangle_m2 = 0, surfaceTriangle_m2 = 0, surfaceCercle_m2 = 0;
 
-    while (1)
-    {
+    //while (1)
+    //{
 
         //-- Séléction de quel surface nous voulons calculer entre les quatres options disponible. --//
         printf("Choisissez le calcul de surface voulu entre le carre, le rectangle, le triangle et le cercle");
@@ -151,9 +151,12 @@ int main(void)
 
                 break;
 
-        }return(surfaceCercle_m2, surfaceTriangle_m2, surfaceCarre_m2, surfaceRectangle_m2);
-        
-    }
 
+
+
+        }
+       
+    //}
+    return(surfaceCercle_m2, surfaceTriangle_m2, surfaceCarre_m2, surfaceRectangle_m2);
  
 }

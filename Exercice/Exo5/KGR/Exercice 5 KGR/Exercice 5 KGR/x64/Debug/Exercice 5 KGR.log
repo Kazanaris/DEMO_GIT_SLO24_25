@@ -1,0 +1,13 @@
+﻿  Ex5_KGR.c
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(32,49): warning C4091: 'typedef ' : ignoré à gauche de 'Valeur' quand aucune variable n'est déclarée
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(43,13): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(43,13): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(43,13): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(43,13): message : cet argument est utilisé comme taille de mémoire tampon
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(49,21): warning C4477: 'scanf_s' : la chaîne de format '%d' nécessite un argument de type 'int *', mais l'argument variadique 1 est de type 'char *'
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(49,21): message : utilisez '%hhd' dans la chaîne de format
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(99,17): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(99,17): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(99,17): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\Exercice 5 KGR\Ex5_KGR.c(99,17): message : cet argument est utilisé comme taille de mémoire tampon
+  Exercice 5 KGR.vcxproj -> C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo5\KGR\Exercice 5 KGR\x64\Debug\Exercice 5 KGR.exe

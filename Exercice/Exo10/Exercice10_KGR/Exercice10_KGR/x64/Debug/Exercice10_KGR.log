@@ -1,0 +1,5 @@
+﻿  MesFonctions.c
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo10\Exercice10_KGR\Exercice10_KGR\MesFonctions.c(67,14): warning C4244: '=' : conversion de 'unsigned long' en 'unsigned short', perte possible de données
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo10\Exercice10_KGR\Exercice10_KGR\MesFonctions.c(68,42): warning C4244: '=' : conversion de 'unsigned long' en 'unsigned short', perte possible de données
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo10\Exercice10_KGR\Exercice10_KGR\MesFonctions.c(69,44): warning C4244: '=' : conversion de 'unsigned long' en 'unsigned short', perte possible de données
+  Exercice10_KGR.vcxproj -> C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo10\Exercice10_KGR\x64\Debug\Exercice10_KGR.exe
