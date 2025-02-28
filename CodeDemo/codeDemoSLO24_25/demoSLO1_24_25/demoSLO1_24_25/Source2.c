@@ -255,3 +255,14 @@ e_surfaceChoice DemonstrationSlo1(int A, char B, double DD)        // soit rien 
 
     return (e_surfaceChoice)A;
 }
+
+
+
+void fonctionDemopt(int A, int *pt_B)
+{
+    int C; 
+
+    C = A; 
+
+    C = *pt_B; 
+}
