@@ -31,6 +31,7 @@
 
 
 
+
 //-- prototypes - WARNING à évité ici 
 
 
@@ -58,6 +59,8 @@ struct str_voiture
 	char tb_modele[TAILLE_TB];
 	str_moteurV2 moteur;
 }; 
+
+
 
 
 //-- déclaration de fonction 
@@ -100,13 +103,28 @@ void main()
 	struct str_voiture voiture1, voiture2 = { 3, blanc, "bat", {12, 6, 1} }; 
 	str_moteurV2 moteurBNJ = { 6, 3, 0 }; 
 
+	Protocole_IP trameIP; 
+
+
 	voiture1 = voiture2; 
 
 	voiture1.roue = 4;
 	voiture1.moteur = moteurBNJ; 
 
+	printf("taille du protocole v1 %d [o] \n", sizeof(Protocole_IP));
+
+	printf("taille du protocole v2 %d [o] \n", sizeof(Protocole_IP_V2));
 
 
+	trameIP.Version = 2; 
+	trameIP.Longueur_en_tete = 3; 
+
+	printf("valeur de transfert : %x", trameIP.transfert); 
+
+	trameIP.transfert = 0x71; 
+
+	printf("valeur de version : %x \n", trameIP.Version);
+	printf("valeur de LT : %x", trameIP.Longueur_en_tete);
 
 	//-- version 1 
 	for (index = 0; index < TAILLE_TB; index++)
