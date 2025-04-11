@@ -1,0 +1,11 @@
+﻿  demoSLO.c
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(114,8): warning C4013: 'printf' non défini(e) ; extern retournant int pris par défaut
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(179,43): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(180,35): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(183,46): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(186,51): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(189,43): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(190,38): warning C4244: 'fonction' : conversion de 'int' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(190,42): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\demoSLO1_24_25\demoSLO.c(80,22): warning C4101: 'choixUser' : variable locale non référencée
+  demoSLO1_24_25.vcxproj -> C:\PBY\PROJET\PROGRAMMATION\GITHUB\PROG_DEMO_SLO24_25\CodeDemo\codeDemoSLO24_25\demoSLO1_24_25\Debug\demoSLO1_24_25.exe

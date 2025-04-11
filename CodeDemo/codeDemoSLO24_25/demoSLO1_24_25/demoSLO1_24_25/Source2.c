@@ -266,3 +266,41 @@ void fonctionDemopt(int A, int *pt_B)
 
     C = *pt_B; 
 }
+
+//-- Fct réalisée avec BSH --// 
+void FonctionSTR_UNION()
+{
+
+    struct uh
+    {
+        short d1;
+        short d2;
+        short d3;
+    };
+
+
+    union uh2 {
+        int table[4];
+        struct uh s1[2];
+    };
+
+    union uh2 test;
+
+    test.table[0] = 13;
+    test.table[1] = 14;
+    test.table[2] = 15;
+    test.table[3] = 16;
+
+    printf("%x", test.s1[0].d1);
+
+    printf("%x", test.s1[0].d2);
+
+    printf("%x\n", test.s1[0].d3);
+
+    printf("%x", test.s1[1].d1);
+
+    printf("%x", test.s1[1].d2);
+
+    printf("%x\n", test.s1[1].d3);
+
+}

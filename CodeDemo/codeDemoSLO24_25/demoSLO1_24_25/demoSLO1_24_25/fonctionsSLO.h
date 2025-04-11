@@ -15,6 +15,11 @@
 //
 // RemarK				:            
 //----------------------------------------------------------------------------------*/
+
+//librairie a inclure
+#include <stdint.h>
+
+
 #ifndef FUNCTIONS_SLO_H
 #define FUNCTIONS_SLO_H
 
@@ -34,6 +39,65 @@ typedef struct
     double cylindre;
     float turbo;
 }str_moteurV2;
+
+// déclaration d'un champs de bit
+typedef struct {
+
+    uint32_t Donnees[506];
+
+    uint32_t Adresse_IP_source;
+    uint32_t Adresse_IP_destination;
+
+    uint16_t Somme_de_controle_en_tete;
+    uint16_t Longueur_totale;
+    uint16_t Identification;
+
+    uint8_t Type_de_service;
+    uint8_t Duree_de_vie;
+    uint8_t Protocole;
+
+    struct seize_bit {
+        uint16_t Decalage_fragment : 13;
+        uint16_t Drapeau : 3;
+    };
+
+    union huit_bit
+    {
+        struct huit_bits {
+            uint8_t Version : 4;                //LSB
+            uint8_t Longueur_en_tete : 4;       //MSB
+        };
+
+        uint8_t transfert; 
+    };
+
+    
+
+}Protocole_IP;
+
+typedef struct {
+
+    uint8_t Version : 4;
+    uint8_t Longueur_en_tete : 4;
+    uint8_t Type_de_service;
+    uint16_t Longueur_totale;
+
+    uint16_t Identification;
+    uint8_t Drapeau : 3;
+    uint16_t Decalage_fragment : 13;
+
+    uint8_t Duree_de_vie;
+    uint8_t Protocole;
+    uint16_t Somme_de_controle_en_tete;
+
+    uint32_t Adresse_IP_source;
+    uint32_t Adresse_IP_destination;
+    uint32_t Donnees[506];
+
+}Protocole_IP_V2;
+
+//declaration d'une union
+
 
 
 
@@ -59,6 +123,7 @@ e_surfaceChoice DemonstrationSlo1(int A, char B, double DD);
 
 void fonctionDemopt(int A, int* pt_B); 
 
+void FonctionSTR_UNION(); 
 
 
 

@@ -172,26 +172,35 @@
 * lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8	
 * source à disposition : Ex11.c 
 
-
-
 ## Exercices - Série 12
 * voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo12)
 * lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8	
-* source à disposition : - 
-
+* source à disposition : Ex12.c - Ex12c.c - Ex12d.c
 
 ## Exercices - Série 13
 * voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo13)
 * lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8 	
-* source à disposition : - 
-
-
+* source à disposition : Ex13.c - Ex13B.c - Ex13_SG.c
 
 ## Exercices - Série 14
 * voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo14)
-* lien avec le chapitre 3 - 4 - 5 - 6 - 7 	
-* source à disposition : - 
+* lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8  	
+* source à disposition :  Ex14.c 
 
+## Exercices - Série 15
+* voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo15)
+* lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8  	
+* source à disposition :  
+
+## Exercices - Série 16
+* voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo16)
+* lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8  	
+* source à disposition :  Ex16.c 
+
+## Exercices - Série 17
+* voir [CDC - PDF](https://github.com/PBYetml/PROG_SLO1_23_24/tree/main/Exercice/Exo17)
+* lien avec le chapitre 3 - 4 - 5 - 6 - 7 - 8  	
+* source à disposition :  Ex17.c 
 
 
 voir sources étudiants concernant certaines questions : [Réponses Etudiants SLO Test1](https://github.com/PBYetml/PROG_SLO1_TEST1_23_24)
