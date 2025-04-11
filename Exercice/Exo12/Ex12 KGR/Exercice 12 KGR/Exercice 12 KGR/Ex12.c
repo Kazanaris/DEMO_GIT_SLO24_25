@@ -10,15 +10,20 @@ int main (void)
 {
 	char UserAnswer;
 	// Variables pour test A
-	double TableA[10] = {10.00, 10.01, 10.02, 10.03, 10.04, 10.05, 10.06, 10.07, 10.08, 10.09};
-	
+	double TableA[NBR_CASE_TAB];
+	double valItem = 10.00;
+	short valCaseTab = 0;
 	// Variables pour test B
 	
 
 	printf("Ex12  Kirian Gruber \n");  // A adapter
 
 	// Boucle initialisation du tableau du testA
-
+	for (char indice = 0; indice < 10; indice++)
+	{
+		TableA[indice] = valItem;
+		valItem = valItem + 0.01;
+	}
 
 	do {
 		printf("Test A ou B, Q pour Quitter \n");
@@ -30,7 +35,8 @@ int main (void)
 				printf("TestA: affichage des informations de TableA \n");
 				// suite test A 
 				
-				
+				valCaseTab = ShowItems(valCaseTab, &TableA[valCaseTab]);
+				valCaseTab = ShowItems(valCaseTab, &TableA[valCaseTab]);
 				
 				
 			break;

@@ -26,14 +26,13 @@
 
 /*-- déclaration fonction --*/
 /*--Fonction partie A--*/
-double ShowItems(char* X, double* Y)
+double ShowItems(short X, double *Y)
 {
-
-
-
-	printf("TestA: indice = %c, adresse item = %h  valeur item = %f\n");
-
-
+	//char indice = X;
+	double valItem = *Y;
+	printf("TestA: indice = %d, adresse item = %X  valeur item = %f\n", X, &Y, valItem);
+	*Y+= 1;
+	return(valItem);
 }
 
 

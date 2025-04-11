@@ -1,0 +1,8 @@
+﻿  Ex12.c
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo12\Ex12 KGR\Exercice 12 KGR\Exercice 12 KGR\Ex12.c(38,18): warning C4244: '=' : conversion de 'double' en 'short', perte possible de données
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo12\Ex12 KGR\Exercice 12 KGR\Exercice 12 KGR\Ex12.c(39,18): warning C4244: '=' : conversion de 'double' en 'short', perte possible de données
+  MesFonctions.c
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo12\Ex12 KGR\Exercice 12 KGR\Exercice 12 KGR\MesFonctions.c(33,9): warning C4477: 'printf' : la chaîne de format '%X' nécessite un argument de type 'unsigned int', mais l'argument variadique 2 est de type 'double **'
+C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo12\Ex12 KGR\Exercice 12 KGR\Exercice 12 KGR\MesFonctions.c(33,9): warning C4313: 'printf' : '%X' dans la chaîne de format est en conflit avec l'argument 2 de type 'double **'.
+  Génération de code en cours...
+  Exercice 12 KGR.vcxproj -> C:\KGR\Programmation\DEMO_GIT_SLO24_25\Exercice\Exo12\Ex12 KGR\Exercice 12 KGR\x64\Debug\Exercice 12 KGR.exe

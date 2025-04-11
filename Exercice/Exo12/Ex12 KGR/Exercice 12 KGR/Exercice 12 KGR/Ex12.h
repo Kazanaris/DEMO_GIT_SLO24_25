@@ -21,12 +21,12 @@
 
 /*-- prototypes --*/
 /*Prototype fonction partie A*/
-double ShowItems(char* X, double* Y);
+double ShowItems(short X, double* Y);
 
 
 
 /*-- constantes globale --*/
-
+#define NBR_CASE_TAB  10
 
 #endif 
 
